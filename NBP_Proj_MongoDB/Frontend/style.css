@@ -1,0 +1,150 @@
+h1{
+    text-align: center;
+}
+.search{
+    display: flex;
+    width: 40%;
+}
+.sidebar,.searchNav{
+    display: flex;
+    justify-content: center;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.mainDiv{
+    display: flex;
+}
+.contentDiv{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.sidebarLi{
+    display: flex;
+    list-style-type: none;
+    background-color: silver;
+    justify-content: center;
+    transition: all 0.5s ease-out;
+}
+.sidebarUl{
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+    width: 100%;
+}
+.sidebar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.sidebarLi:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+.cartDiv{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    
+}
+
+.logInDiv{
+    position: absolute;
+    top: 2%;
+    right: 6%;
+    
+}
+.cartImg,.logInImg{
+    border: 1px solid black;
+}
+
+.passBox,.emailBox,.loginBtn,.labelLogin{
+    width: 15%;
+}
+.logInDiv{
+    display: flex;
+    flex-direction: row;
+}
+.logOutDiv{
+    border: 1px solid black;
+    margin: 1px;
+    float:left;
+}
+.editBtn,.removeBtn{
+   width: fit-content;
+}
+.editForm{
+    border: 1px solid black;
+}
+.itemDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+.cartDiv1{
+    display: flex;
+    flex-direction: row;
+}
+.divLoginHelp{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paginationDiv{
+   position:fixed;
+   left:0px;
+   bottom:10px;
+   height:30px;
+   width:100%;
+   display: flex;
+   justify-content: center;
+}
+
+.ulPag {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
+
+  
+.ulPag li {
+    margin: 0 1px;
+  }
+  
+  .ulPag a {
+    display: block;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    border-radius: 0.2em;
+    text-decoration: none;
+  }
+  
+  .ulPag a[aria-current='page'] {
+    background-color: #333;
+    color: #fff;
+  }
+  .sortDiv{
+    position: absolute;
+    top: 16%;
+    right: 4%;
+  }

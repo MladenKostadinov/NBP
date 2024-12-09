@@ -1,0 +1,106 @@
+body{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.mainH{
+    display: flex;
+    justify-content: center;
+  }
+
+.nav{
+  display:block;
+  
+  align-items: center;
+  text-align: center;
+  
+}
+.navList{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.searchDiv{
+  display: flex;
+  justify-content: center;
+}
+.notificationDiv{
+ 
+  height: 225px;
+  width:200px;
+}
+.headerDiv{
+  position: relative;
+}
+.hiddenDiv{
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  
+  width:200px;
+}
+.notifications {
+  
+  background-color: transparent;
+  font-weight: lighter;
+  
+  /*margin-left: auto; 
+  margin-right: 0;*/
+  
+}
+body{
+  border: 1px;
+  border: solid blue;
+}
+.contentDiv{
+  display: flex;
+  flex-direction: column;
+}
+/* .emailSig{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.passSig{
+  margin-left: 40%;
+  margin-right: 40%;
+} */
+.buttonSig{
+  margin-left: 45%;
+  margin-right: 45%;
+  width: fit-content;
+}
+.emailDiv,.passDiv,.pictureDiv,.descriptionDiv,.auctionDiv,.durationDiv,.startBidDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2px;
+}
+/* .passDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+label{
+  width: fit-content;
+  padding: 2px;
+}
+.hiddenDiv{
+  display: none;
+}
+input:invalid {
+  outline: red solid 3px;
+}
+.profileDiv{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.bidTimeDiv{
+  display: flex;
+  justify-content: space-between;
+}

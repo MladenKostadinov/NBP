@@ -1,0 +1,111 @@
+.graphVisDiv{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+}
+.queryInput{
+    width: 100%;
+}
+.headerDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid black;
+    border-left:  2px solid black;
+    border-top:  2px solid black;
+}
+.sidebarAndContentDiv{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex: 1 1 100%;
+}
+.contentDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.sidebarDiv{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    border-left:  2px solid black;
+    border-top:  2px solid black;
+    
+    white-space: nowrap;
+    
+}
+.mainDiv,.trucksDiv,.stockDiv,.logoutDiv{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding:  4px;
+}
+.infoDiv{
+    width: 100%;
+    border: 2px solid black;
+    border-left:  2px solid black;
+    border-right:  2px solid black;
+    flex:1 1 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    min-height: 98%;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25%;
+}
+.userNameInput{
+    width: fit-content;
+}
+.passInput{
+    width: fit-content;
+}
+.dataRow{ 
+    border-top: 2px solid black;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progressDiv {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 13px;
+    padding: 3px;
+    width: 20%;
+  }
+  
+  .progressDiv>div {
+    /* Adjust with JavaScript */
+    height: 20px;
+    border-radius: 10px;
+  }
+  .namePropDiv{
+    width: 50%;
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+  }
+  .replenishBtn{
+    margin-right: 2px;
+  }
+  img{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
